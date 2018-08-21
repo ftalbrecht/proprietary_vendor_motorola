@@ -1253,10 +1253,18 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/potter/proprietary/vendor/lib64/libhdcpsrm.so:/system/vendor/lib64/libhdcpsrm.so \
     vendor/motorola/potter/proprietary/vendor/lib64/libwvhidl.so:/system/vendor/lib64/libwvhidl.so \
     vendor/motorola/potter/proprietary/vendor/lib64/vendor.display.config@1.2.so:/system/vendor/lib64/vendor.display.config@1.2.so \
+    vendor/motorola/potter/proprietary/vendor/lib64/vendor.display.config@1.3.so:/system/vendor/lib64/vendor.display.config@1.3.so \
+    vendor/motorola/potter/proprietary/vendor/lib64/vendor.display.config@1.4.so:/system/vendor/lib64/vendor.display.config@1.4.so \
     vendor/motorola/potter/proprietary/vendor/lib/libdtvtuner.so:/system/vendor/lib/libdtvtuner.so \
     vendor/motorola/potter/proprietary/vendor/lib64/libdtvtuner.so:/system/vendor/lib64/libdtvtuner.so \
-    vendor/motorola/potter/proprietary/vendor/lib64/vendor.display.config@1.3.so:/system/vendor/lib64/vendor.display.config@1.3.so \
-    vendor/motorola/potter/proprietary/vendor/lib64/vendor.display.config@1.4.so:/system/vendor/lib64/vendor.display.config@1.4.so
+    vendor/motorola/potter/proprietary/lib/libcamera2ndk.so:/system/lib/libcamera2ndk.so \
+    vendor/motorola/potter/proprietary/lib/libcamera_client.so:/system/lib/libcamera_client.so \
+    vendor/motorola/potter/proprietary/lib/libcamera_metadata.so:/system/lib/libcamera_metadata.so \
+    vendor/motorola/potter/proprietary/lib/libcameraservice.so:/system/lib/libcameraservice.so \
+    vendor/motorola/potter/proprietary/lib64/libcamera2ndk.so:/system/lib64/libcamera2ndk.so \
+    vendor/motorola/potter/proprietary/lib64/libcamera_client.so:/system/lib64/libcamera_client.so \
+    vendor/motorola/potter/proprietary/lib64/libcamera_metadata.so:/system/lib64/libcamera_metadata.so \
+    vendor/motorola/potter/proprietary/lib64/libcameraservice.so:/system/lib64/libcameraservice.so
 
 # WFD
 PRODUCT_COPY_FILES += \
