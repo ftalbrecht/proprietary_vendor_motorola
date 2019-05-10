@@ -1264,7 +1264,14 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/potter/proprietary/lib64/libcamera2ndk.so:/system/lib64/libcamera2ndk.so \
     vendor/motorola/potter/proprietary/lib64/libcamera_client.so:/system/lib64/libcamera_client.so \
     vendor/motorola/potter/proprietary/lib64/libcamera_metadata.so:/system/lib64/libcamera_metadata.so \
-    vendor/motorola/potter/proprietary/lib64/libcameraservice.so:/system/lib64/libcameraservice.so
+    vendor/motorola/potter/proprietary/lib64/libcameraservice.so:/system/lib64/libcameraservice.so \
+    vendor/motorola/potter/proprietary/vendor/bin/hw/vendor.qti.esepowermanager@1.0-service:system/vendor/bin/hw/vendor.qti.esepowermanager@1.0-service \
+    vendor/motorola/potter/proprietary/vendor/etc/init/vendor.qti.esepowermanager@1.0-service.rc:system/vendor/etc/init/vendor.qti.esepowermanager@1.0-service.rc \
+    vendor/motorola/potter/proprietary/vendor/lib64/vendor.qti.esepowermanager@1.0.so:system/vendor/lib64/vendor.qti.esepowermanager@1.0.so \
+    vendor/motorola/potter/proprietary/vendor/lib/hw/vendor.qti.esepowermanager@1.0-impl.so:system/vendor/lib/hw/vendor.qti.esepowermanager@1.0-impl.so \
+    vendor/motorola/potter/proprietary/vendor/lib64/hw/vendor.qti.esepowermanager@1.0-impl.so:system/vendor/lib64/hw/vendor.qti.esepowermanager@1.0-impl.so \
+    vendor/motorola/potter/proprietary/lib/vendor.qti.esepowermanager@1.0.so:system/lib/vendor.qti.esepowermanager@1.0.so \
+    vendor/motorola/potter/proprietary/lib64/vendor.qti.esepowermanager@1.0.so:system/lib64/vendor.qti.esepowermanager@1.0.so
 
 # WFD
 PRODUCT_COPY_FILES += \
@@ -1274,6 +1281,7 @@ PRODUCT_COPY_FILES += \
      vendor/motorola/potter/proprietary/etc/wfdconfigsink.xml:system/etc/wfdconfigsink.xml \
      vendor/motorola/potter/proprietary/lib/com.qualcomm.qti.wifidisplayhal@1.0.so:system/lib/com.qualcomm.qti.wifidisplayhal@1.0.so \
      vendor/motorola/potter/proprietary/lib/extractors/libmmparser.so:system/lib/extractors/libmmparser.so \
+     vendor/motorola/potter/proprietary/lib/libaacwrapper.so:system/lib/libaacwrapper.so \
      vendor/motorola/potter/proprietary/lib/libFileMux.so:system/lib/libFileMux.so \
      vendor/motorola/potter/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
      vendor/motorola/potter/proprietary/lib/libmmparser_lite.so:system/lib/libmmparser_lite.so \
@@ -1298,6 +1306,7 @@ PRODUCT_COPY_FILES += \
      vendor/motorola/potter/proprietary/lib/libwfduibcsrc.so:system/lib/libwfduibcsrc.so \
      vendor/motorola/potter/proprietary/lib/libwfduibcsrcinterface.so:system/lib/libwfduibcsrcinterface.so \
      vendor/motorola/potter/proprietary/lib64/extractors/libmmparser.so:system/lib64/extractors/libmmparser.so \
+     vendor/motorola/potter/proprietary/lib64/libaacwrapper.so:system/lib64/libaacwrapper.so \
      vendor/motorola/potter/proprietary/lib64/libFileMux.so:system/lib64/libFileMux.so \
      vendor/motorola/potter/proprietary/lib64/libmmosal.so:system/lib64/libmmosal.so \
      vendor/motorola/potter/proprietary/lib64/libmmparser_lite.so:system/lib64/libmmparser_lite.so \
